@@ -48,7 +48,7 @@ export default {
                 language: this.field?.language || "en",
                 charCounterCount: false,
                 wordCounterCount: true,
-                // spellcheck: true,
+                spellcheck: false,
                 heightMin: 200,
                 paragraphFormatSelection: true,
                 paragraphDefaultSelection: "Normal",
