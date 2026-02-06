@@ -10,7 +10,7 @@ FROALA_ACTIVATION_KEY="your-froala-access-key"
 
 ## Installation
 Use composer to import package. Command is:
-composer require marotura/older-froala-text-editor:1.0.0
+composer require marotura/older-froala-text-editor:1.0.1
 
 ## Usage
 use Marotura\OlderFroalaTextEditor\FroalaTextEditor;
