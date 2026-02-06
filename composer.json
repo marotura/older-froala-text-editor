@@ -1,0 +1,40 @@
+{
+    "name": "marotura/older-froala-text-editor",
+    "description": "A custom Laravel Nova field using Froala editor for older versions of Laravel.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marotura\\OlderFroalaTextEditor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marotura\\OlderFroalaTextEditor\\FieldServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Marotura B.V.",
+            "email": "techniek@marotura.com"
+        },
+        {
+            "name": "Arminda R. Marin",
+            "email": "a.marin@marotura.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
